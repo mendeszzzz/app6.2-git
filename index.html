@@ -1,0 +1,722 @@
+﻿<!DOCTYPE html>
+<html>
+
+ <head>
+	 
+	 
+	 <!-- Start WOWSlider.com HEAD section -->
+<link rel="stylesheet" type="text/css" href="engine1/style.css" />
+<script type="text/javascript" src="engine1/jquery.js"></script>
+<!-- End WOWSlider.com HEAD section --><!-- Start WOWSlider.com HEAD section -->
+<link rel="stylesheet" type="text/css" href="engine1/style.css" />
+<script type="text/javascript" src="engine1/jquery.js"></script>
+<!-- End WOWSlider.com HEAD section -->
+	 
+	 
+
+  <title>Batalla del 5 de mayo</title>
+  <!--grupo CSS-->
+  <link rel="stylesheet" href="css/temaapp2.min.css"/>
+  <link rel="stylesheet" href="css/jquery.mobile.icons-1.4.5.min.css"/>
+  <link rel="stylesheet" href="css/jquery.mobile.structure-1.4.5.min.css"/>
+ 
+  <!--grupo JavaScript-->
+  <script src ="js/jquery-1.11.2.min.js"></script>
+  <script src ="js/jquery.mobile-1.4.5.min.js"></script>
+  <!--<script src ="js/acciones.js" type= "text/javascript"></script>-->
+ 
+  <script src ="phonegap.js"></script><!--necesario*/-->
+ <script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+ </script>
+ </head>
+
+<body onLoad="MM_preloadImages('imagenes/imagen4.jpg','imagenes/imagen8.jpg','imagenes/imagen11.jpg','imagenes/imagen13.jpg','imagenes/imagen15.jpg','imagenes/imagen17.jpg','imagenes/imagen19.jpg','imagenes/imagen21.jpg')">
+
+ <div data-role="page" id="Principal" data-theme="a">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+   <h1>Batalla del 5 de Mayo</h1>
+  </div> 
+  <div>
+    <ul data-role="listview" data-theme="a" class="ui-listview ui-group-theme-a">
+     <li class="ui-first-child ui-last-child">
+      <a href="#Pagina1" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+       <h2>Batalla 4 de mayo</h2>
+       <p>Atlixco tiene una larga historia de contribuciones a la construcción de éste país  y este Estado de Puebla...</p> 
+      </a>
+     </li>
+     <li class="ui-first-child ui-last-child">
+      <a href="#Pagina2" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+       <h2>Batalla 5 de mayo</h2>
+       <p>El presidente Benito Juárez declaró el 17 de julio de 1861, una moratoria de dos años en el pago de deudas a prestamistas extranjeros...</p>  
+      </a>      
+     </li>
+     <li class="ui-first-child ui-last-child">
+      <a href="#Pagina3" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+       <h2>Inicio del conflicto</h2>
+       <p>En 1857, ocurrió la Guerra de Reforma : un conflicto armado donde los liberales afrontaron los conservadores para impedir que la nueva constitución restituya a los militares...</p>  
+      </a>      
+     </li> 
+     <li class="ui-first-child ui-last-child">
+      <a href="#Pagina4" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+       <h2>Monumentos de la batalla y/o museos</h2> 
+      </a>      
+     </li> 
+     <li class="ui-first-child ui-last-child">
+      <a href="#Pagina5" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+       <h2>Héroes de la batalla</h2>
+       <p>Principales personajes de la batalla de Puebla por México...</p> 
+      </a>      
+     </li>      
+    </ul>
+  </div>
+  <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+   <div>
+    <img src="imagenes/persona_azul.png" width="46" height="46">
+   </div>
+   <div>
+    <h4>Aplicación Seis</h4>
+    <h4>Catarino Andres Mendez Martínez</h4>
+   </div>
+  </div>
+</div>
+ <div data-role="page" id="Pagina1" data-add-back-btn="true" data-theme="a">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+   <h1>Batalla 4 de mayo</h1> 
+  </div>
+  <div data-role="content" align="center">
+   <div>
+    <h2>4 DE MAYO DE 1862</h2>
+    <p>La historia de la Batalla del 4 de Mayo de 1862 relata que, durante la segunda intervención francesa en México, en la hacienda de La Trapera, los atlixquenses y elementos del Ejército Mexicano, al mando de los generales Antonio Carvajal y Tomas O´Horan se enfrentaron a las tropas al servicio del Segundo Imperio Mexicano comandadas por José María Cobos y Leonardo Márquez.
+ 
+Y que, gracias a este triunfo, el grupo conservador de Márquez no pudo lograr su objetivo de auxiliar al día siguiente a las tropas francesas del Conde de Lorencez en la Batalla de Puebla.
+Previo a este evento las autoridades del gobierno municipal, alumnos, docentes y padres de familia de la escuela federal Héroes del 4 de Mayo se dieron cita para realizar una ceremonia cívica y recordar a través de una plástica el hecho triunfal de la batalla que por nombre lleva esta institución.
+Por tal motivo, un 20 de noviembre de 1998, el Congreso del Estado de Puebla declaró a Atlixco Heroica Ciudad.
+ 
+Así mismo, las autoridades municipales depositaron una ofrenda floral en el busto del general Antonio Carvajal.
+
+
+
+
+<div data-role="main" class="ui-content" align="center">
+<div style="width:30%;">
+  <ul data-role="controlgroup" data-type="vertical" data-theme="a">
+    <li class="ui-first-child ui-last-child">
+      <a href="https://www.sabersinfin.com/articulos" data-role="button">
+        <h2>Mas</h2>
+      </a>
+    </li>
+      
+   </ul>
+ </div>
+</div>
+ <img src="imagenes/imagen1.jpg" width="50%" height="50%">
+    </p>
+	      
+ </div>
+  </div>
+  <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+   <div>
+    <img src="imagenes/persona_azul.png" width="46" height="46">
+   </div>
+   <h4>Aplicación Seis, CAMM</h4>
+  </div>
+ </div>
+
+ <div data-role="page" id="Pagina2" data-add-back-btn="true" data-theme="a">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+   <h1>Batalla 5 de mayo</h1> 
+  </div>
+  <div data-role="content">
+   <div>
+    <h2>Una victoria inesperada de las fuerzas mexicanas</h2>
+  
+    <div>
+     <p>
+              
+		  La Batalla de Puebla fue consecuencia de la Segunda intervención francesa en México (conocida como la batalla de San Lorenzo). Para saber por qué se libró la batalla, es esencial entender primeramente por qué Francia intervino en el país mexicano. Pues, en síntesis, todo se debía a problemas con pago de deudas de parte de México.
+
+Su deuda se remontaba a 80 millones de pesos: 2 millones para Francia, 9 millones para España y 69 millones para Inglaterra. Pero Benito Juárez, el presidente de México para ese entonces, decidió suspender el pago de las deudas externas.
+
+Como consecuencia, Inglaterra, España y Francia crearon la Convención de Londres (acuerdo diplomático firmado por los gobernantes de estos países: Victoria, Isabel II y Napoleón III, respectivamente)</p>
+
+<img src="imagenes/imagen1.jpg" width="50%" height="50%">
+
+     
+     <br> 
+    </div>
+    <div>
+      <img src="imagenes/conta9.jpg" width="50%" height="50%" alt=""/> 
+     </div>
+
+
+
+
+
+<div data-role="main" class="ui-content" align="center">
+<div style="width:30%;">
+  <ul data-role="controlgroup" data-type="vertical" data-theme="a">
+    <li class="ui-first-child ui-last-child">
+      <a href="https://culturacolectiva.com/historia" data-role="button">
+        <h2>Mas</h2>
+      </a>
+    </li>
+      
+   </ul>
+ </div>
+</div>
+
+   
+  
+  
+  
+  
+
+  
+  
+
+    
+   </div>
+  </div>
+  <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+   <div>
+    <img src="imagenes/persona_azul.png" width="46" height="46">
+   </div>
+   <h4>Aplicación Seis, CAMM</h4>
+  </div>
+ </div>
+
+ <div data-role="page" id="Pagina3" data-add-back-btn="true" data-theme="a">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+   <h1>Inicio del conflicto</h1> 
+  </div>
+  <div data-role="content" align="center">
+   <div>
+    <h2>Antecedentes de la Batalla de Puebla</h2>
+
+    <p>En 1857, ocurrió la Guerra de Reforma : un conflicto armado donde los liberales afrontaron los conservadores para impedir que la nueva constitución restituya a los militares y a la Iglesia los privilegios que habían perdido con las Leyes de Reforma. Benito Juárez, gobernador de Oaxaca al momento del conflicto, representaba a los liberales y  Ignacio Comonfort, presidente de la República, representaba a los conservadores. Despues de 3 años, a principio del año 1961, los liberales ganaron la guerra y el Presidente Benito Juárez instauró su gobierno en la Ciudad de México.
+    Pero despues de 3 años de conflicto, México está  financieramente en ruinas y tiene deudas enormes que los conservadores contrataron con banqueros europeos para  pagar la guerra.</p>
+	   
+     <div data-role="main" class="ui-content" align="center">
+<div style="width:30%;">
+  <ul data-role="controlgroup" data-type="vertical" data-theme="a">
+    <li class="ui-first-child ui-last-child">
+      <a href="http://www.dias-festivos-mexico.com.mx/dias-feriados" data-role="button" >
+        <h2>Mas </h2>
+      </a>
+    </li>
+      
+   </ul>
+ </div>
+</div>
+	   
+	   
+   </div>
+  </div>
+  <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+   <div>
+    <img src="imagenes/persona_azul.png" width="46" height="46">
+   </div>
+   <h4>Aplicación Seis, CAMM</h4>
+  </div>
+ </div>
+
+ <div data-role="page" id="Pagina4" data-add-back-btn="true" data-theme="a">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+   <h1>Monumentos de la batalla y/o museos </h1> 
+  </div>
+  <div data-role="content" align="center">
+   <div>
+    <h2></h2>
+
+
+  <div data-role="main" class="iu-content">
+   <div data-role="collapsible" data-comtent-theme="false">
+    <h1>Museo Interactivo 5 de Mayo</h1>
+    <div>
+     <h2>Consejo Estatal para la Cultura y las Artes de Puebla</h2>
+     <p>Ejército de Oriente s/n y Unidad Cívica 5 de Mayo
+      Col. Moctezuma
+      CP 72260
+      Heróica Puebla De Zaragoza, Puebla, Puebla
+       Tels.: (222) 232 15 28, 232 01 32
+
+<div data-role="main" class="ui-content" align="center">
+<div style="width:30%;">
+  <ul data-role="controlgroup" data-type="vertical" data-theme="a">
+    <li class="ui-first-child ui-last-child">
+      <a href="http://sic.gob.mx/ficha.php?table=museo&table_id=1655" data-role="button">
+        <h2>Mas</h2>
+      </a>
+    </li>
+      
+   </ul>
+ </div>
+</div>
+      
+
+</p>
+
+
+
+     <br> 
+    </div>
+    <div>
+      <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image8','','imagenes/imagen4.jpg',1)"><img src="imagenes/imagen3.jpg" alt="" width="60%" height="60%" id="Image8"></a> </div>
+   </div>
+  </div>
+	  
+	  
+	  
+	  
+	  <div data-role="main" class="iu-content">
+   <div data-role="collapsible" data-comtent-theme="false">
+    <h1>El emblemático Monumento a Ignacio Zaragoza</h1>
+    <div>
+     <p>Después de entregar el mando del Ejército de Oriente al general Jesús González Ortega el 3 de septiembre de 1862, sus síntomas empeoraron. Cinco días después, el general falleció a sus 33 años de edad, lejos del campo de batalla. En su honor, Benito Juárez develó el 4 de mayo de 1868 un monumento póstumo en Panteón de San Fernando.
+
+<div data-role="main" class="ui-content" align="center">
+<div style="width:40%;">
+  <ul data-role="controlgroup" data-type="vertical" data-theme="a">
+    <li class="ui-first-child ui-last-child">
+      <a href="http://pueblados22.mx/emblematico-monumento-a-ignacio-zaragoza/" data-role="button">
+        <h2>Mas informacion</h2>
+      </a>
+    </li>
+      
+   </ul>
+ </div>
+</div>
+      
+
+</p>
+
+
+
+     <br> 
+    </div>
+    <div>
+		
+		<a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image14','','imagenes/imagen19.jpg',1)"><img src="imagenes/imagen18.jpg" alt="" width="60%" height="60%" id="Image14"></a> </div>
+   </div>
+  </div>
+
+	  <div data-role="main" class="iu-content">
+   <div data-role="collapsible" data-comtent-theme="false">
+    <h1>Monumento a la Victoria del 5 de Mayo - Puebla - México</h1>
+    <div>
+     <p>En la zona de los Fuertes de Loreto y Guadalupe, Un Monumento que se encontraba en el olvido y que ahora con los 150 años de la Batalla del 5 de Mayo le han vuelto a dar vida.
+
+ 
+Inaugurado el 5 de Mayo de 1962 para conmemorar el 1er Centenario.
+
+<div data-role="main" class="ui-content" align="center">
+<div style="width:30%;">
+  <ul data-role="controlgroup" data-type="vertical" data-theme="a">
+    <li class="ui-first-child ui-last-child">
+      <a href="https://www.flickr.com/photos" data-role="button">
+        <h2>Mas</h2>
+      </a>
+    </li>
+      
+   </ul>
+ </div>
+</div>
+      
+
+</p>
+
+
+
+     <br> 
+    </div>
+    <div>
+	
+	  <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image15','','imagenes/imagen21.jpg',1)"><img src="imagenes/imagen20.jpg" alt="" width="60%" height="60%" id="Image15"></a> </div>
+   </div>
+  </div>
+
+
+
+
+
+
+
+ <div data-role="main" class="iu-content">
+   <div data-role="collapsible" data-comtent-theme="false">
+    <h1>Fuerte de Guadalupe</h1>
+    <div>
+     <p>Hoy modernizado, fue el escenario de la batalla de 1862 el 5 de mayo,es otro conjunto arquitectónico que destaca en la capital poblana, sobre la avenida de los Fuertes. En 1816 fue construido sobre la cúspide del cerro que antiguamente se llamaba de Belén, un templo dedicado a la Virgen de Guadalupe. En 1862 cuando arribaron los invasores franceses a Puebla, el fuerte fue parcialmente destruido, al igual que el pequeño templo que se encontraba ah
+í
+<div data-role="main" class="ui-content" align="center">
+<div style="width:30%;">
+  <ul data-role="controlgroup" data-type="vertical" data-theme="a">
+    <li class="ui-first-child ui-last-child">
+      <a href="https://listas.20minutos.es/lista" data-role="button">
+        <h2>Mas</h2>
+      </a>
+    </li>
+      
+   </ul>
+ </div>
+</div>
+      
+
+</p>
+
+
+
+     <br> 
+    </div>
+    <div>
+  
+
+<img src="imagenes/imagen22.jpg" width="60%" height="60%" >
+
+     </div>
+   </div>
+  </div>
+
+
+
+
+
+
+
+ <div data-role="main" class="iu-content">
+   <div data-role="collapsible" data-comtent-theme="false">
+    <h1>Casa de Alfeñique.</h1>
+    <div>
+     <p>Construida en 1790, conserva muchas pinturas virreinales, exhibe la historia de Puebla, como la batalla del 5 de mayo de 1862, y conserva su capilla domestica con retablo barroco de lamina de oro, tallado en madera.
+
+<div data-role="main" class="ui-content" align="center">
+<div style="width:40%;">
+  <ul data-role="controlgroup" data-type="vertical" data-theme="a">
+    <li class="ui-first-child ui-last-child">
+      <a href="https://listas.20minutos.es/lista" data-role="button">
+        <h2>Mas</h2>
+      </a>
+    </li>
+      
+   </ul>
+ </div>
+</div>
+      
+
+</p>
+
+
+
+     <br> 
+    </div>
+    <div>
+  
+
+<img src="imagenes/imagen23.jpg" width="60%" height="60%" >
+
+     </div>
+   </div>
+  </div>
+
+
+
+
+
+
+
+  <div data-role="main" class="iu-content">
+   <div data-role="collapsible" data-comtent-theme="false">
+    <h1>Fuerte de Loreto.</h1>
+    <div>
+     <p>Escenario de la batalla del 5 de mayo de 1862, fue una iglesia del siglo XVIII, su fachada es un ejemplo del barroco novohispano.
+
+<div data-role="main" class="ui-content" align="center">
+<div style="width:30%;">
+  <ul data-role="controlgroup" data-type="vertical" data-theme="a">
+    <li class="ui-first-child ui-last-child">
+      <a href="https://listas.20minutos.es/lista" data-role="button">
+        <h2>Mas informacion</h2>
+      </a>
+    </li>
+      
+   </ul>
+ </div>
+</div>
+      
+
+</p>
+
+
+
+     <br> 
+    </div>
+    <div>
+  
+
+<img src="imagenes/imagen24.jpg" width="60%" height="60%" >
+
+     </div>
+   </div>
+  </div>
+
+
+
+
+
+
+
+
+
+   </div>
+  </div>
+  <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+   <div>
+    <img src="imagenes/persona_azul.png" width="46" height="46">
+   </div>
+   <h4>Aplicación Seis, CAMM</h4>
+  </div>
+ </div>
+
+ <div data-role="page" id="Pagina5" data-add-back-btn="true" data-theme="a">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+   <h1>Héroes de la batalla</h1> 
+  </div>
+  <div data-role="content" align="center">
+   <div>
+    
+	   <div> 
+	  <!-- Start WOWSlider.com BODY section -->
+<div id="wowslider-container1">
+<div class="ws_images"><ul>
+		<li><img src="data1/images/imagen7.jpg" alt="imagen7" title="imagen7" id="wows1_0"/></li>
+		<li><img src="data1/images/imagen10.jpg" alt="imagen10" title="imagen10" id="wows1_1"/></li>
+		<li><img src="data1/images/imagen14.jpg" alt="imagen14" title="imagen14" id="wows1_2"/></li>
+		<li><img src="data1/images/imagen11.jpg" alt="imagen11" title="imagen11" id="wows1_3"/></li>
+		<li><img src="data1/images/imagen15.jpg" alt="imagen15" title="imagen15" id="wows1_4"/></li>
+		<li><img src="data1/images/imagen12.jpg" alt="imagen12" title="imagen12" id="wows1_5"/></li>
+		<li><img src="data1/images/imagen13.jpg" alt="imagen13" title="imagen13" id="wows1_6"/></li>
+		<li><a href="http://wowslider.com"><img src="data1/images/imagen16.jpg" alt="responsive slider" title="imagen16" id="wows1_7"/></a></li>
+		<li><img src="data1/images/imagen17.jpg" alt="imagen17" title="imagen17" id="wows1_8"/></li>
+	</ul></div>
+	<div class="ws_bullets"><div>
+		<a href="#" title="imagen7"><span><img src="data1/tooltips/imagen7.jpg" alt="imagen7"/>1</span></a>
+		<a href="#" title="imagen10"><span><img src="data1/tooltips/imagen10.jpg" alt="imagen10"/>2</span></a>
+		<a href="#" title="imagen14"><span><img src="data1/tooltips/imagen14.jpg" alt="imagen14"/>3</span></a>
+		<a href="#" title="imagen11"><span><img src="data1/tooltips/imagen11.jpg" alt="imagen11"/>4</span></a>
+		<a href="#" title="imagen15"><span><img src="data1/tooltips/imagen15.jpg" alt="imagen15"/>5</span></a>
+		<a href="#" title="imagen12"><span><img src="data1/tooltips/imagen12.jpg" alt="imagen12"/>6</span></a>
+		<a href="#" title="imagen13"><span><img src="data1/tooltips/imagen13.jpg" alt="imagen13"/>7</span></a>
+		<a href="#" title="imagen16"><span><img src="data1/tooltips/imagen16.jpg" alt="imagen16"/>8</span></a>
+		<a href="#" title="imagen17"><span><img src="data1/tooltips/imagen17.jpg" alt="imagen17"/>9</span></a>
+	</div></div><div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.com">wowslider.com</a> by WOWSlider.com v8.7</div>
+<div class="ws_shadow"></div>
+</div>	
+<script type="text/javascript" src="engine1/wowslider.js"></script>
+<script type="text/javascript" src="engine1/script.js"></script>
+<!-- End WOWSlider.com BODY section -->
+</div>
+	   
+	<div data-role="main" class="iu-content">
+   <div data-role="collapsible" data-comtent-theme="false">
+    <h1>General Ignacio Zaragoza</h1>
+    <div>
+     <h2>Consejo Estatal para la Cultura y las Artes de Puebla</h2>
+     <p>Famoso militar mexicano qiuen enfrentó las fuerzas francesas de Napoleón III en Acultzingo en la llamada Batalla de Las Cumbres de Acultzingo, el 28 de abril de 1862. Zaragoza comprendió la posición defensiva y favorable que tenía la ciudad de Puebla, paso obligado para ir a la Ciudad de México, y con un ejército más pequeño y menos equipado que los franceses, logró dar una batalla excepcional desde los cerros de Loreto y Guadalupe el 5 de mayo de 1862
+
+<div data-role="main" class="ui-content" align="center">
+<div style="width:30%;">
+  <ul data-role="controlgroup" data-type="vertical" data-theme="a">
+    <li class="ui-first-child ui-last-child">
+      <a href="http://www.dias-festivos-mexico.com.mx/dias-feriados" data-role="button">
+        <h2>Mas</h2>
+      </a>
+    </li>
+      
+   </ul>
+ </div>
+</div>
+      
+
+</p>
+
+
+
+     <br> 
+    </div>
+    <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image9','','imagenes/imagen8.jpg',1)"><img src="imagenes/imagen7.jpg" alt="" width="60%" height="60%" id="Image9"></a> </div>
+  </div>   
+	   
+	
+	  
+	  
+	  <div data-role="main" class="iu-content">
+   <div data-role="collapsible" data-comtent-theme="false">
+    <h1>General Porfirio Díaz</h1>
+    <div>
+     <h2>Militar y político mexicano</h2>
+     <p>Porfirio Díaz ingresó en el ejército, y su carrera militar fue meteórica. En la guerra de Reforma (1858-1861), conflicto civil en el que se enfrentaron conservadores y liberales, apoyó la causa liberal. La guerra concluyó con la victoria de los liberales y llevó a la presidencia a Benito Juárez (1861); finalizada la contienda, Porfirio Díaz fue ascendido a general y elegido diputado. Apenas un año más tarde tomó de nuevo las armas contra la invasión francesa (1862-1863) y la coronación de Maximiliano I (1864-1867) como emperador de México. Fue jefe de brigada en Acultzingo en abril de 1862 y ese mismo año participó en la batalla de Cinco de Mayo al lado de Ignacio Zaragoza. El prestigio y popularidad ganados en sus últimas campañas lo dejó en situación de optar a la presidencia, pero el Congreso prefirió a Benito Juárez en 1867.
+
+<div data-role="main" class="ui-content" align="center">
+<div style="width:30%;">
+  <ul data-role="controlgroup" data-type="vertical" data-theme="a">
+    <li class="ui-first-child ui-last-child">
+      <a href="http://www.dias-festivos-mexico.com.mx/dias-feriados" data-role="button">
+        <h2>Mas</h2>
+      </a>
+    </li>
+      
+   </ul>
+ </div>
+</div>
+      
+
+</p>
+
+
+
+     <br> 
+    </div>
+	  <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image10','','imagenes/imagen11.jpg',1)"><img src="imagenes/imagen10.jpg" alt="" width="60%" height="60%" id="Image10"></a> </div>
+  </div> 
+	 
+	 
+	 
+	 
+	  <div data-role="main" class="iu-content">
+   <div data-role="collapsible" data-comtent-theme="false">
+    <h1>Felipe Berriazábal</h1>
+    <div>
+     <h2>Militar e ingeniero</h2>
+     <p>Felipe Berriozábal Militar e ingeniero, nació en Zacatecas. Fue gobernador de los Estados de México, Michoacán y San Luis Potosí y tuvo importantes proyectos de ingeniería. Como militar llegó a General y fue ministro de Guerra y Marina. Participó en la Guerra de Reforma y contra la Intervención Francesa. En la batalla del 5 de mayo en Puebla, aseguró el triunfo de los mexicanos al dar alcance con la caballería, junto con el Gral. Porfirio Díaz, a las tropas francesas en retiradas. Ignacio Zaragoza al confrontar y derrotar a Leonardo Márquez en las Lomas de Calderón, pero fue hecho prisionero por Miguel Miramón en diciembre de 1860. En 1862, participó en la defensa del Convento San Agustín, en la Batalla de Las Cumbres, y en la Batalla de Puebla. En 1863, fue hecho prisionero por los franceses
+
+<div data-role="main" class="ui-content" align="center">
+<div style="width:30%;">
+  <ul data-role="controlgroup" data-type="vertical" data-theme="a">
+    <li class="ui-first-child ui-last-child">
+      <a href="http://www.dias-festivos-mexico.com.mx/dias-feriados" data-role="button">
+        <h2>Mas</h2>
+      </a>
+    </li>
+      
+   </ul>
+ </div>
+</div>
+      
+
+</p>
+
+
+
+     <br> 
+    </div>
+		  
+	    <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image12','','imagenes/imagen13.jpg',1)"><img src="imagenes/imagen12.jpg" alt="" width="60%" height="60%" id="Image12"></a> </div>
+  </div> 
+
+
+
+
+ <div data-role="main" class="iu-content">
+   <div data-role="collapsible" data-comtent-theme="false">
+    <h1>Miguel Negrete</h1>
+    <div>
+     <p>Durante la Segunda Intervención Francesa en México, Negrete hizo a un lado su ideología conservadora y participó en la defensa del territorio mexicano, ante el avance de las tropas francesas hacia el centro de México, Negrete reacciona y se pone de parte del bando liberal con su Célebre frase "Yo tengo la Patria antes que Partido" .Unido al ejército republicano y las órdenes del general Ignacio Zaragoza, ambos se cubren de gloria en la Batalla de Las Cumbres y en la Batalla de Puebla el 5 de mayo de 1862, llegando a ser Considerado como el segundo héroe de la batalla al defensor del Fuerte de Loreto.
+
+
+
+<div data-role="main" class="ui-content" align="center">
+<div style="width:40%;">
+  <ul data-role="controlgroup" data-type="vertical" data-theme="a">
+    <li class="ui-first-child ui-last-child">
+      <a href="http://www.dias-festivos-mexico.com.mx/dias-feriados" data-role="button">
+        <h2>Mas</h2>
+      </a>
+    </li>
+      
+   </ul>
+ </div>
+</div>
+      
+
+</p>
+
+
+
+     <br> 
+    </div>
+	 
+	 <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image13','','imagenes/imagen15.jpg',1)"><img src="imagenes/imagen14.jpg" alt="" width="360" height="229" id="Image13"></a> </div>
+  </div> 
+
+
+
+
+
+
+
+ <div data-role="main" class="iu-content">
+   <div data-role="collapsible" data-comtent-theme="false">
+    <h1>Charles Ferdinand Latrille</h1>
+    <div>
+     <h2>Militar y político mexicano</h2>
+     <p>El cinco de mayo de 1862, Lorencez se presenta al frente de su ejército, ante la ciudad de Puebla, con la intención de tomarla a viva fuerza; previamente, debido a las victorias que había obtenido en otras batallas en Europa, Lorencez, despreciando a su enemigo, mandó un mensaje demasiado arrogante a Napoleón III, en el cual expresaba: "Somos tan superiores a los mexicanos, en organización, en disciplina, raza, moral y refinamiento de sensibilidades, que desde este momento, al mando de nuestros 6000 valientes soldados, ya soy el amo de México"'. Suponía que le sería muy fácil vencer a las tropas mexicanas y desoyendo los consejos de los conservadores, Lorencez atacó prematuramente la ciudad; las tropas mexicanas del Ejército de Oriente, comandadas por Zaragoza, rechazaron con valentía al ejército francés en tres ocasiones, ayudadas por la inadecuada planeación y ejecución de sus asaltos.
+
+<div data-role="main" class="ui-content" align="center">
+<div style="width:40%;">
+  <ul data-role="controlgroup" data-type="vertical" data-theme="a">
+    <li class="ui-first-child ui-last-child">
+      <a href="http://www.dias-festivos-mexico.com.mx/dias-feriados" data-role="button">
+        <h2>Mas</h2>
+      </a>
+    </li>
+      
+   </ul>
+ </div>
+</div>
+      
+
+</p>
+
+
+
+     <br> 
+    </div>
+	 
+	 <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image13','','imagenes/imagen17.jpg',1)"><img src="imagenes/imagen16.jpg" alt="" width="60%" height="60%" id="Image"></a> </div>
+  </div> 
+	  
+	
+	  
+   </div>
+  </div>
+  <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+   <div>
+    <img src="imagenes/persona_azul.png" width="46" height="46">
+   </div>
+   <h4>Aplicación Seis, CAMM</h4>
+  </div>
+ </div>
+
+</body>
+</html>
+        
